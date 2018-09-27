@@ -13,13 +13,13 @@
   
 ### Using the program should result in the following output:
 
-In 2016 California has most death with 262240 death caused by 'All causes'
+In 2016 California has most deaths caused by 'All causes' with 262240 deaths.
 
-In 2016 Alaska has the least death with 4494 death caused by 'All causes'
+In 2016 Alaska has the least deaths caused by 'All causes' with 4494 deaths.
 
 From 1999 to 2016, Rhode Island has the smallest increase in deaths with a 27 increase in deaths caused by 'All causes'
 
-In 2005 Pennsylvania has most death with 3108 death caused by 'Kidney disease'
+In 2005 Pennsylvania has most deaths caused by 'Kidney disease' with 3108 deaths.
 
 From 1999 to 2016, California has the highest increase in deaths with a 11038 increase in deaths caused by 'Alzheimer's disease'
 
