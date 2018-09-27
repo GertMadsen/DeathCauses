@@ -1,6 +1,8 @@
 # Python Assignment 2
 ### Analyzing [https://data.cdc.gov/api/views/bi63-dtpu/rows.csv?accessType=DOWNLOAD](https://data.cdc.gov/api/views/bi63-dtpu/rows.csv?accessType=DOWNLOAD)
 
+*
+*
 
 ### Dependencies:
 * Python - Anaconda Distribution 
