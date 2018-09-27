@@ -1,6 +1,7 @@
 # Python Assignment 3
 ### Analyzing [https://data.cdc.gov/api/views/bi63-dtpu/rows.csv?accessType=DOWNLOAD](https://data.cdc.gov/api/views/bi63-dtpu/rows.csv?accessType=DOWNLOAD)
-* 
+* This program analyzes a dataset about the leading causes of deaths in The United States and answer questions like which state has most deaths cause by a certain decease or which state has the highest or lowest increase in deaths. 
+* This program also produces a plot that shows the increase of death per year for a specific period of time in a specific state.
 
 ### Dependencies:
 * Python - Anaconda Distribution 
