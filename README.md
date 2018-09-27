@@ -10,8 +10,7 @@
 ### Procedure to run the program:
 * Clone the project on your computer.
 * How to use the program:
-  * In a command prompt or bash with Python available, use the following command together with the URL to the CSV file:
-  * python main.py https://raw.githubusercontent.com/GertMadsen/DeathCauses/master/NCHS_-_Leading_Causes_of_Death__United_States.csv
+  * In a command prompt or bash with Python available, use the following command together with the URL to the CSV file: python main.py https://raw.githubusercontent.com/GertMadsen/DeathCauses/master/NCHS_-_Leading_Causes_of_Death__United_States.csv
   
 ### Using the program should result in the following output:
 
