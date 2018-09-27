@@ -9,7 +9,6 @@ import os
 import sys
 from lib.converter import convert
 from lib.download import download
-import numpy as np
 
 if __name__ == '__main__':
     try:
@@ -22,4 +21,3 @@ if __name__ == '__main__':
 
     data = convert(file_name)
 
-    
