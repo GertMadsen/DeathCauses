@@ -22,8 +22,6 @@ In 2016 California has most deaths caused by 'All causes' with 262240 deaths.
 
 In 2016 Alaska has the least deaths caused by 'All causes' with 4494 deaths.
 
-Plot saved in plots folder as 'Annual_death_increase_for_All causes_in_Rhode Island.png'.
-
 From 1999 to 2016, Rhode Island has the smallest increase in deaths with a 27 increase in deaths caused by 'All causes'
 
 In 2005 Pennsylvania has most deaths caused by 'Kidney disease' with 3108 deaths.
@@ -32,12 +30,11 @@ Plot saved in plots folder as 'Annual_death_increase_for_Alzheimer's disease_in_
 
 From 1999 to 2016, California has the highest increase in deaths with a 11038 increase in deaths caused by 'Alzheimer's disease'
 
-* **OBS:** *When creating a plot it should be displayed in a new window and the program execution will halt until this window is closed.*
+* **OBS:** *When creating the plot it should be displayed in a new window and the program execution will halt until this window is closed.*
 
 ### The CSV file should be downloaded to the 'csv' folder.
 
-### Plotting images should be created in .png format and found in the 'plots' folder as: 
+### A plotting image should be created in .png format and found in the 'plots' folder as: 
 * 'Annual_death_increase_for_Alzheimer's disease_in_California.png'.
-* 'Annual_death_increase_for_All causes_in_Rhode Island.png'
 
 ### Group members: Lene, Mikkel H, Devran & Gert. 
