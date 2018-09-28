@@ -17,10 +17,10 @@ def find_most_death(data_set, year, cause):
 
 def find_least_death(data_set, year, cause):
     state = ""
-    min = 1000000
+    min = 0
     for data in data_set:
         if data[0] == year and data[1] == cause:
-            if data[3] < min:
+            if data[3] < min or min == 0:
                 min = data[3]
                 state = data[2]
     return f"\nIn {year} {state} has the least deaths caused by '{cause}' with {min} deaths."
