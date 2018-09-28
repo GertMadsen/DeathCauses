@@ -6,7 +6,7 @@
 * This program also produces plots that shows the increase of death per year for a specific period of time in a specific state with a specific cause of death.
 
 ### Procedure to run the program:
-* Clone the project on your computer.
+* Clone the project into your computer.
 * How to use the program:
   * In a command prompt or bash with Python available, use the following command together with the URL to the CSV file: 
   * python main.py https://raw.githubusercontent.com/GertMadsen/DeathCauses/master/NCHS_-_Leading_Causes_of_Death__United_States.csv
