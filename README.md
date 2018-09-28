@@ -18,6 +18,8 @@
 
 ### Using the program should result in the following output:
 
+* **Console view:**
+
 In 2016 California has most deaths caused by 'All causes' with 262240 deaths.
 
 In 2016 Alaska has the least deaths caused by 'All causes' with 4494 deaths.
