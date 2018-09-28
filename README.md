@@ -18,7 +18,7 @@
 
 ### Using the program should result in the following output:
 
-* **Console view:**
+* **Console output:**
 
 In 2016 California has most deaths caused by 'All causes' with 262240 deaths.
 
@@ -34,9 +34,9 @@ From 1999 to 2016, California has the highest increase in deaths with a 11038 in
 
 * **OBS:** *When creating the plot it should be displayed in a new window and the program execution will halt until this window is closed.*
 
-### The CSV file should be downloaded to the 'csv' folder.
+* **The CSV file should be downloaded to the 'csv' folder.**
 
-### A plotting image should be created in .png format and found in the 'plots' folder as: 
-* 'Annual_death_increase_for_Alzheimer's disease_in_California.png'.
+* **A plotting image should be created in .png format and found in the 'plots' folder as:** 
+  * 'Annual_death_increase_for_Alzheimer's disease_in_California.png'.
 
 ### Group members: Lene, Mikkel H, Devran & Gert. 
