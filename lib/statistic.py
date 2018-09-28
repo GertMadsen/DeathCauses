@@ -53,6 +53,5 @@ def find_least_inc(data_set, start_year, end_year, cause):
         state_dict.remove(item)
     state = state_dict[-1][0]
     increase = state_dict[-1][1]
-    plotting.plot_inc_by_year(data_set,state, cause, start_year, end_year)
     return f"\nFrom {start_year} to {end_year}, {state} has the smallest increase in deaths with a {increase} increase in deaths caused by '{cause}'"
 
