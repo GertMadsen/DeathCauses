@@ -5,16 +5,17 @@
 * This program analyzes a dataset about the leading causes of deaths in The United States and answer questions like which state has most deaths cause by a certain decease or which state has the highest or lowest increase in deaths. 
 * This program also produces a plot that shows the increase of death per year for a specific period of time in a specific state.
 
-### Dependencies:
-* Python - Anaconda Distribution 
-
 ### Procedure to run the program:
 * Clone the project on your computer.
 * How to use the program:
   * In a command prompt or bash with Python available, use the following command together with the URL to the CSV file: 
   * python main.py https://raw.githubusercontent.com/GertMadsen/DeathCauses/master/NCHS_-_Leading_Causes_of_Death__United_States.csv
   * *Since the link to the CSV file in the assignment is not a link to the CSV file itself - we have downloaded the CSV file and placed it in our own repository. This way we can use the link mentioned above as argument to our main.py*
-  
+
+### Dependencies:
+* Python - Anaconda Distribution 
+* *In order to make sure that all librabies are present we recommend using this program with an Anaconda distribution of Python. But the program will probably also work with other distributiions, but then libraries such as Requests might need to be installed.*
+
 ### Using the program should result in the following output:
 
 In 2016 California has most deaths caused by 'All causes' with 262240 deaths.
