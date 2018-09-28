@@ -26,7 +26,7 @@ From 1999 to 2016, Rhode Island has the smallest increase in deaths with a 27 in
 
 In 2005 Pennsylvania has most deaths caused by 'Kidney disease' with 3108 deaths.
 
-Plot saved as 'Annual_death_increase_for_Alzheimer's disease_in_California.png'.
+Plot saved in plots folder as 'Annual_death_increase_for_Alzheimer's disease_in_California.png'.
 
 From 1999 to 2016, California has the highest increase in deaths with a 11038 increase in deaths caused by 'Alzheimer's disease'
 
