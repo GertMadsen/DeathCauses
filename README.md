@@ -34,7 +34,7 @@ From 1999 to 2016, California has the highest increase in deaths with a 11038 in
 
 ### The CSV file should be downloaded to the project folder.
 
-### Plotting images should also be created in png format and found in the 'plots' folder as: 
+### Plotting images should be created in png format and found in the 'plots' folder as: 
 * 'Annual_death_increase_for_Alzheimer's disease_in_California.png'.
 * 'Annual_death_increase_for_All causes_in_Rhode Island.png'
 
