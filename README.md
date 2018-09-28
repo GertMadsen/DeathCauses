@@ -32,6 +32,8 @@ Plot saved in plots folder as 'Annual_death_increase_for_Alzheimer's disease_in_
 
 From 1999 to 2016, California has the highest increase in deaths with a 11038 increase in deaths caused by 'Alzheimer's disease'
 
+* *OBS: When creating a plot it should be shown in a new window and the program execution will halt until this window is closed.*
+
 ### The CSV file should be downloaded to the 'csv' folder.
 
 ### Plotting images should be created in .png format and found in the 'plots' folder as: 
