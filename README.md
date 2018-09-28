@@ -18,7 +18,7 @@
 
 ### Using the program should result in the following output:
 
-In 2016 California has most deaths caused by 'All causes' with 262240 deaths.
+*In 2016 California has most deaths caused by 'All causes' with 262240 deaths.
 
 In 2016 Alaska has the least deaths caused by 'All causes' with 4494 deaths.
 
@@ -30,7 +30,7 @@ In 2005 Pennsylvania has most deaths caused by 'Kidney disease' with 3108 deaths
 
 Plot saved in plots folder as 'Annual_death_increase_for_Alzheimer's disease_in_California.png'.
 
-From 1999 to 2016, California has the highest increase in deaths with a 11038 increase in deaths caused by 'Alzheimer's disease'
+From 1999 to 2016, California has the highest increase in deaths with a 11038 increase in deaths caused by 'Alzheimer's disease'*
 
 ### The CSV file should be downloaded to the 'csv' folder.
 
