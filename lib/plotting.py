@@ -34,5 +34,6 @@ def plot_inc_by_year(data_set, state, cause, start_year, end_year):
     plt.tight_layout(pad=2.0)
     plt.plot(xs, ys, linewidth=5)
     plt.savefig(plot_dir + plot_file)
+    plt.show()
     plt.close()
     print("\nPlot saved in plots folder as '" + plot_file + "'.")
