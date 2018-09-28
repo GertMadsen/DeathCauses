@@ -12,11 +12,12 @@ from lib.download import download
 import lib.statistic as stat
 
 if __name__ == '__main__':
+    
     script_dir = os.path.dirname(__file__)
     file_dir = os.path.join(script_dir, 'csv/')
-
     if not os.path.isdir(file_dir):
         os.makedirs(file_dir)
+
     try:
         _, url = sys.argv
         file_name = file_dir + os.path.basename(url)        
