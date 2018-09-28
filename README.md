@@ -14,7 +14,7 @@
 
 ### Dependencies:
 * Python - Anaconda Distribution 
-* *In order to make sure that all librabies are present we recommend using this program with an Anaconda distribution of Python. But the program will probably also work with other distributiions, but then libraries such as Requests might need to be installed.*
+* *In order to make sure that all librabies are present for a problem free execution of the software, we recommend using an Anaconda distribution of Python. But the software will probably also run with other distributiions, but then libraries such as Requests might need to be installed.*
 
 ### Using the program should result in the following output:
 
