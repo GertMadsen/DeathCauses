@@ -9,8 +9,8 @@ def convert(file_name):
         header__row = next(reader)
         data_set = []
         for line in reader:
-            year, _, cause, state, death, death_rate = line
-            year, death, death_rate = int(year), int(death), float(death_rate)
+            year, _, cause, state, death, _ = line
+            year, death, = int(year), int(death)
             if state != "United States":
-                data_set.append([year, cause, state, death, death_rate])
+                data_set.append([year, cause, state, death])
     return data_set
