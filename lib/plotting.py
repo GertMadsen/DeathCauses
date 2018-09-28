@@ -7,13 +7,9 @@ import numpy as np
 import os
 
 def plot_inc_by_year(data_set, state, cause, start_year, end_year):
-    years = range(start_year, end_year+1)
-    death_arr = []
-    
-    for year in years:
-        for data in data_set:
-            if data[0] == year and data[2] == state and data[1] == cause:
-                death_arr.append(data[3])              
+    years = range(start_year, end_year+1)     
+
+    death_arr = [data[3] for year in years for data in data_set if data[0] == year and data[2] == state and data[1] == cause]                    
     
     end_years = np.array(death_arr[1:])
     start_years = np.array(death_arr[:-1])

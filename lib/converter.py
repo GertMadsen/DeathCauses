@@ -6,7 +6,7 @@ import csv
 def convert(file_name):
     with open(file_name) as fp:
         reader = csv.reader(fp)
-        header__row = next(reader)
+        next(reader)
         data_set = []
         for line in reader:
             year, _, cause, state, death, _ = line
