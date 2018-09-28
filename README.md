@@ -11,6 +11,7 @@
 * How to use the program:
   * In a command prompt or bash with Python available, use the following command together with the URL to the CSV file: 
   * python main.py https://raw.githubusercontent.com/GertMadsen/DeathCauses/master/NCHS_-_Leading_Causes_of_Death__United_States.csv
+  * *Since the link to the CSV file in the assignment is not a link to the CSV file itself - we have downloaded the CSV file and placed it in our own repository. This way we can use the link mentioned above as argument to our main.py*
   
 ### Using the program should result in the following output:
 
