@@ -16,7 +16,6 @@ if __name__ == '__main__':
     # If the csv directory already exits it will be created
     if not os.path.isdir(file_dir):
         os.makedirs(file_dir)
-
     try:
         _, url = sys.argv
         file_name = os.path.join(file_dir, os.path.basename(url))
@@ -25,9 +24,8 @@ if __name__ == '__main__':
         print(__doc__)
         sys.exit(1)  
 
-    
     # After downloading the csv file we use our own converter to read the file and clean it up. 
-    # We filter some data way in order to represent our data in away we find more easy to work with
+    # We filter some data away in order to represent our data in away we find more easy to work with
     data_set = convert(file_name)
 
     print(stat.find_most_death(data_set, 2016, "All causes"))
