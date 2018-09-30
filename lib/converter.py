@@ -1,5 +1,5 @@
 '''
-    Converts the CSV file into a for our exercise more useful representation of the data
+    Converts the CSV file into a more useful representation of the data for our exercise.
 '''
 import csv
 
