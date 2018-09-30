@@ -6,6 +6,9 @@ from collections import Counter
 import lib.plotting as plotting
 
 def find_most_death(data_set, year, cause):
+    '''
+        Finds the state with the most deaths in a specific year caused by a certain death cause
+    '''
     state = ""
     max = 0
     for data in data_set:
@@ -20,6 +23,9 @@ def find_most_death(data_set, year, cause):
     return f"\nIn {year} {state} has most deaths caused by '{cause}' with {max} deaths."
 
 def find_least_death(data_set, year, cause):
+    '''
+        Finds the state with the least deaths in a specific year caused by a certain death cause
+    '''
     state = ""
     min = 0
     for data in data_set:
@@ -35,6 +41,9 @@ def find_least_death(data_set, year, cause):
     return f"\nIn {year} {state} has the least deaths caused by '{cause}' with {min} deaths."
 
 def find_most_inc(data_set, start_year, end_year, cause):
+    '''
+        Finds the state with the most increase in deaths in a specific year interval caused by a certain death cause
+    '''
     # After using the find_inc function to make a dictionary with the increases in death for all states,
     # we then use the most common method in the Counter Class from the collection library to sort the dict.
     state_dict = Counter(find_inc(data_set, start_year, end_year, cause)).most_common()
@@ -45,6 +54,9 @@ def find_most_inc(data_set, start_year, end_year, cause):
     return f"\nFrom {start_year} to {end_year}, {state} has the highest increase in deaths with a {increase} increase in deaths caused by '{cause}'"
     
 def find_least_inc(data_set, start_year, end_year, cause):
+    '''
+        Finds the state with the least increase in deaths in a specific year interval caused by a certain death cause
+    '''
     # Again we use the find_inc function to make a dictionary with the increases in death for all states.
     # And after that we then use the most common method in the Counter Class from the collection library to sort the dict.
     state_dict = Counter(find_inc(data_set, start_year, end_year, cause)).most_common()
@@ -64,9 +76,11 @@ def find_least_inc(data_set, start_year, end_year, cause):
     increase = state_dict[-1][1]
     return f"\nFrom {start_year} to {end_year}, {state} has the smallest increase in deaths with a {increase} increase in deaths caused by '{cause}'"
 
-# This function finds the annual increase in death between two years for every state
-# and stores this in a dictionary where the states are keys and numbers of death are values
 def find_inc(data_set, start_year, end_year, cause):
+    '''
+        This function finds the increase in death between two years for every state
+        and stores this in a dictionary where the states are keys and numbers of death are values
+    '''
     state_dict = {}
     for data in data_set:
         state_dict.setdefault(data[2], 0)

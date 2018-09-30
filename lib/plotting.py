@@ -8,6 +8,9 @@ import os
 
 # This functions take the data_set, a state, a cause, start year and end year and plots the annual increase in death.
 def plot_inc_by_year(data_set, state, cause, start_year, end_year):
+    '''
+    Makes a plot showing the annual increase in death for a specific state and cause in a given time period:
+    '''
     
     years = range(start_year, end_year+1)     
     

@@ -3,8 +3,10 @@
 '''
 import csv
 
-# This function cleans the data in the CSV file 
 def convert(file_name):
+    '''
+        This function cleans the data in the given CSV file
+    '''
     with open(file_name) as fp:
         reader = csv.reader(fp)
         next(reader)
