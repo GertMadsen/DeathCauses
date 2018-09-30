@@ -12,15 +12,13 @@ from lib.download import download
 import lib.statistic as stat
 
 if __name__ == '__main__':
-    
-    script_dir = os.path.dirname(__file__)
-    file_dir = os.path.join(script_dir, 'csv/')
+    file_dir = 'csv'
     if not os.path.isdir(file_dir):
         os.makedirs(file_dir)
 
     try:
         _, url = sys.argv
-        file_name = file_dir + os.path.basename(url)        
+        file_name = os.path.join(file_dir, os.path.basename(url))
         download(url, file_name)   
     except Exception as e:
         print(__doc__)
@@ -28,10 +26,9 @@ if __name__ == '__main__':
 
     data_set = convert(file_name)
 
-    print(stat.find_most_death(data_set,2016,"All causes"))
-    print(stat.find_least_death(data_set,2016,"All causes"))
-    print(stat.find_least_inc(data_set,1999, 2016, "All causes"))
-    print(stat.find_most_death(data_set,2005,"Kidney disease"))
-    print(stat.find_most_inc(data_set,1999, 2016, "Alzheimer's disease"))
-    
+    print(stat.find_most_death(data_set, 2016, "All causes"))
+    print(stat.find_least_death(data_set, 2016, "All causes"))
+    print(stat.find_least_inc(data_set, 1999, 2016, "All causes"))
+    print(stat.find_most_death(data_set, 2005, "Kidney disease"))
+    print(stat.find_most_inc(data_set, 1999, 2016, "Alzheimer's disease"))
     

@@ -16,8 +16,7 @@ def plot_inc_by_year(data_set, state, cause, start_year, end_year):
     increase_arr = end_years - start_years
     
     plot_file = f'Annual_death_increase_for_{cause}_in_{state}.png'
-    script_dir = os.path.dirname(__file__)
-    plot_dir = os.path.join(script_dir, '..', 'plots/')
+    plot_dir = 'plots'
     if not os.path.isdir(plot_dir):
         os.makedirs(plot_dir)
 
@@ -31,7 +30,7 @@ def plot_inc_by_year(data_set, state, cause, start_year, end_year):
     plt.xticks(xs, xlabels, rotation='vertical')
     plt.tight_layout(pad=2.0)
     plt.plot(xs, ys, linewidth=5)
-    plt.savefig(plot_dir + plot_file)
+    plt.savefig(os.path.join(plot_dir, plot_file))
     plt.show()
     plt.close()
     
